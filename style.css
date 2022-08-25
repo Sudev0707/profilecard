@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+/*  main container */
+
+.container {
+    /* margin: 4% auto; */
+    height: 699px;
+    margin-bottom: 2.8%;
+    /* margin-bottom: 7.5%; */
+    box-shadow: rgba(99, 99, 99, 0.121) 0px 20px 25px -5px, rgba(75, 74, 74, 0.04) 0px 10px 10px -5px;
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+}
+
+
+/* profile container */
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 599px;
+    background-color: #ececf981;
+}
+
+
+/* card */
+
+.flex_container .card {
+    background-color: #fcf7f7c2;
+    width: 398px;
+    height: 210px;
+    margin: 11px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.121) 0px 20px 25px -5px, rgba(75, 74, 74, 0.04) 0px 10px 10px -5px;
+    /* line-height: 75px; */
+    /* font-size: 30px; */
+}
+
+
+/* card inside */
+
+.card .row {
+    height: 170px;
+    margin: 2px 2px 2px;
+    color: #10062b;
+}
+
+.card {
+    border: 0px;
+}
+
+.card .row .img-box {
+    /* margin-left: 3%; */
+    float: left;
+    width: 30%;
+    background-color: #ececf9e2;
+    /* border: 1px solid rgb(235, 125, 8); */
+    border-radius: 5px;
+    padding: 3px;
+    height: 158px;
+}
+
+.card .row img {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+
+.row .text-box {
+    /* margin-right: 3%; */
+    float: right;
+    width: 70%;
+    /* border: 1px solid black; */
+}
+
+.card p {
+    display: inline;
+    color: #838383;
+}
+
+.social-links a {
+    /* width: 50%; */
+    text-decoration: none;
+    font-size: 23px;
+    margin: 5px;
+    color: #1d0f3e;
+    /* width: 30px; */
+}
+
+.social-links .link {
+    justify-content: space-between;
+}
+
+.card-bottom {
+    border-top: 1px solid rgb(214, 212, 212);
+}
+
+
+/*                   form-container                     */
+
+
+/* second for container style */
+
+.second-form-container {
+    width: 700px;
+    margin: 2% auto;
+    border-radius: 5px;
+    /* background-color: #e9eafd; */
+    background-color: #ffffffed;
+    box-shadow: rgba(99, 99, 99, 0.121) 0px 20px 25px -5px, rgba(75, 74, 74, 0.04) 0px 10px 10px -5px;
+}
+
+.second-form-container .form-header {
+    background-color: #1b0b40;
+    color: #ffffff;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.second-form-container .form-body {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffffed;
+}
+
+.second-form-container .form-body>div {
+    margin: 12px 15px 12px 15px;
+    /* padding: 9px; */
+}
+
+.second-form-container hr {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.form-footer {
+    background-color: white;
+    border-top: 1px solid rgb(186, 185, 185);
+}
